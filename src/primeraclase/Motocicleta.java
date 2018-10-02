@@ -32,13 +32,13 @@ public class Motocicleta extends Vehiculo
             return placa;
         }
 
-        public void setPlaca (String placa)
-        {
-            this.placa = placa;
-        }
+    public void setPlaca (String placa)
+    {
+        this.placa = placa;
+    }
 
-        public void lavarVehiculo()
-        {
-            System.out.println("Lavando motocicleta a mano");
-        }
+    public void lavarVehiculo()
+    {
+        System.out.println("Lavando motocicleta a mano");
+    }
 }

@@ -1,17 +1,25 @@
 package primeraclase;
 
-public abstract class Vehiculo {
-
+public abstract class Vehiculo
+{
+    // variable privada
     private Integer numLlantas;
 
-    public Integer getNumLlantas() {
+
+    // getter de de una clase absstracta
+    public abstract void lavarVehiculo();
+
+    public Integer getNumLlantas()
+    {
         return numLlantas;
     }
 
-    public void setNumLlantas(Integer numLlantas) {
+    //setter de una clase abstracta
+    public void setNumLlantas(Integer numLlantas)
+    {
         this.numLlantas = numLlantas;
     }
 
-    public abstract void lavarVehiculo();
 }
+
 

@@ -13,7 +13,8 @@ public class Auto extends Vehiculo
         setNumLlantas(4);
     }
 
-    public Auto(String placa) throws PlacaInvalidaException {
+    public Auto(String placa) throws PlacaInvalidaException
+    {
 
         placa=placa.trim();
 
@@ -28,16 +29,6 @@ public class Auto extends Vehiculo
         }
         setNumLlantas(4);
     }
-
-
-    public String getPlaca()
-    {
-        return placa;
-    }
-    public void setPlaca(String placa)
-    {
-        this.placa = placa;
-    }
     public  void  lavarVehiculo()
     {
         System.out.println("Entrando al car wash");
@@ -46,6 +37,12 @@ public class Auto extends Vehiculo
     {
         System.out.println("lavando coche en: "+ lugar);
     }
-
-
+    public String getPlaca()
+    {
+        return placa;
+    }
+    public void setPlaca(String placa)
+    {
+        this.placa = placa;
+    }
 }

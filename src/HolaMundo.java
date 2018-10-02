@@ -61,6 +61,7 @@ public class HolaMundo
         }
         catch (PlacaInvalidaException e)
         {
+            // manda mensaje  y lo lanza otra vez
             System.out.println("ocurrio un problema al crear auto :" + e.getMessage());
             throw e;
         }
