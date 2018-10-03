@@ -2,6 +2,8 @@ package loops;
 
 import java.util.ArrayList;
 
+
+    //------------------------- Este es un for -------------------------
 public class Loops {
     public void iterarwhitfor()
     {
@@ -11,6 +13,7 @@ public class Loops {
         }
 
     }
+    //------------------------- Este es un do while -------------------------
     public void iterarwhitwhile()
     {
         int i = 0;
