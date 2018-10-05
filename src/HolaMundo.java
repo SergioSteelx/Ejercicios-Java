@@ -2,6 +2,7 @@ import loops.Loops;
 import primeraclase.Auto;
 import primeraclase.Excepciones.PlacaInvalidaException;
 import primeraclase.Motocicleta;
+import  equals.Persona;
 
 public class HolaMundo
 {
@@ -69,6 +70,13 @@ public class HolaMundo
         {
             //liberar recursos
         }
+        //------------------------- equals entre variables -------------------------
+
+        String s1 = "hola mundo";
+        String s2 = "hola mundo";
+        System.out.println(s1.equals(s2));
+
+        //------------------------- equals entre variables -------------------------
 
     }
 }
