@@ -2,41 +2,40 @@ package Colecciones;
 
 public class DVD {
 
-    private String titulo;
+    private String Titulo;
     private String Genero;
     private String Protagonista;
 
     // constructor Default
-    public String dvd ()
+    public void DVD ()
     {
-        return "DVD desconocido";
     }
 
-    // DVD 
-    public String dvd (String titulo)
+    // DVD
+    public DVD (String titulo)
     {
-        return "";
+        this.Titulo = titulo;
     }
 
-
-    public String dvd (String titulo, String genero)
+    public DVD (String titulo, String genero)
     {
-        return "";
+        this (titulo);
+        this.Genero = genero;
     }
 
-
-    public String dvd (String titulo, String genero, String protagonista)
+    public DVD (String titulo, String genero, String protagonista)
     {
-        return "";
+        this(titulo, genero);
+        this.Protagonista = protagonista;
     }
 
 //--- get y set de titulo
     public String getTitulo() {
-        return titulo;
+        return Titulo;
     }
 
     public void setTitulo(String titulo) {
-        this.titulo = titulo;
+        this.Titulo = titulo;
     }
     //--- get y set genero
     public String getGenero() {
