@@ -21,19 +21,23 @@ public class Persona
     }
 
     @Override
-    public int hashCode() {
+    public int hashCode()
+    {
         return Objects.hash(nombre, edad);
     }
 
-    public void setEdad(int edad) {
+    public void setEdad(int edad)
+    {
         this.edad = edad;
     }
 
-    public String getNombre() {
+    public String getNombre()
+    {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
+    public void setNombre(String nombre)
+    {
         this.nombre = nombre;
     }
 }
