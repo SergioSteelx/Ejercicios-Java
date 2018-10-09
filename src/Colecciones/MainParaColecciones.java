@@ -1,5 +1,6 @@
 package Colecciones;
 
+
 public class MainParaColecciones {
 
     public static void main(String[] args)
