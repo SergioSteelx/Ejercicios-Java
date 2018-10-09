@@ -1,6 +1,6 @@
 package Colecciones;
 import java.util.*;
-import java.util.Map.Entry;
+//import java.util.Map.Entry;
 public class ListSetMapTest
 {
     public static void main(String[] args)
