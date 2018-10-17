@@ -5,6 +5,7 @@ import java.util.*;
 
 public class Ejercicio
 {
+
     public static void main(String[] args)
     {
         List<DVD> dvds = ListaDVD();
@@ -52,7 +53,6 @@ public class Ejercicio
             System.out.println(dvd);
         }
     }
-
     public static List<DVD> ListaDVD ()
     {
 

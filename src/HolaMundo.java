@@ -1,3 +1,4 @@
+import Static.Galleta;
 import loops.Loops;
 import primeraclase.Auto;
 import primeraclase.Excepciones.PlacaInvalidaException;
@@ -8,6 +9,7 @@ public class HolaMundo
 {
     public static void main(String[] args) throws Exception
     {
+        Galleta galleta = new Galleta();
         //------------------------- Loop -------------------------
         //------------------------- instancia de Loop -------------------------
         Loops loops = new Loops();
